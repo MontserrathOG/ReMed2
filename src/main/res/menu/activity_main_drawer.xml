@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_general"
+            android:icon="@drawable/usu"
+            android:title="Datos Generales" />
+        <item
+            android:id="@+id/nav_registro"
+            android:icon="@drawable/registro"
+            android:title="Registro médico" />
+        <item
+            android:id="@+id/nav_mental"
+            android:icon="@drawable/mental"
+            android:title="Registro Psicologico" />
+        <item
+            android:id="@+id/nav_nutricion"
+            android:icon="@drawable/nutri"
+            android:title="Registro Nutricional" />
+        <item
+            android:id="@+id/nav_sexual"
+            android:icon="@drawable/sexo"
+            android:title="Registro Salud sexual" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Configuración" />
+    </group>
+
+</menu>
